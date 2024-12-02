@@ -19,7 +19,7 @@ class Login extends Controller
         $id = $this->request->getVar('id');
         $password = $this->request->getVar('password');
         $user = $model->getUser($id);
-
+    
         if ($user) {
             if (password_verify($password, $user['password'])) {
                 $session->set([
@@ -27,17 +27,20 @@ class Login extends Controller
                     'role' => $user['role'],
                     'logged_in' => true
                 ]);
-
-                // Redirect based on role
+    
+                // Arahkan pengguna berdasarkan peran (role)
                 switch ($user['role']) {
                     case 'admin':
-                        return redirect()->to('/admin');
-                    case 'pimpinan':
-                        return redirect()->to('/pimpinan');
-                    case 'staff':
-                        return redirect()->to('/staff');
+                        return redirect()->to('/admin/dashboard');
                     case 'pengaju':
-                        return redirect()->to('/pengaju');
+                        return redirect()->to('/pengaju/dashboard');
+                    case 'pimpinan':
+                        return redirect()->to('/pimpinan/dashboard');
+                    case 'staff':
+                        return redirect()->to('/staff/dashboard');
+                    default:
+                        $session->setFlashdata('msg', 'Peran tidak dikenal.');
+                        return redirect()->to('/login');
                 }
             } else {
                 $session->setFlashdata('msg', 'Password salah.');
@@ -47,7 +50,7 @@ class Login extends Controller
         }
         return redirect()->to('/login');
     }
-
+    
     public function logout()
     {
         session()->destroy();
