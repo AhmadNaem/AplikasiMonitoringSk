@@ -9,6 +9,11 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/login', 'Login::index');
 $routes->post('/login/auth', 'Login::auth');
 $routes->get('/logout', 'Login::logout');
+#rute jika ingin lihat hasil view
+$routes->get('/admin_dashboard', 'Dashboard::admin');
+$routes->get('/pimpinan_dashboard', 'Dashboard::pimpinan');
+$routes->get('/pengaju_dashboard', 'Dashboard::pengaju');
+$routes->get('/staff_dashboard', 'Dashboard::staff');
 
 // Routes for roles (optional examples)
 $routes->get('/admin/dashboard', 'Dashboard::admin', ['filter' => 'auth']);

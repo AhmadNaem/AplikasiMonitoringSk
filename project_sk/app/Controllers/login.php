@@ -16,40 +16,42 @@ class Login extends Controller
     {
         $session = session();
         $model = new LoginModel();
-        $id = $this->request->getVar('id');
-        $password = $this->request->getVar('password');
-        $user = $model->getUser($id);
+        $inputId = $this->request->getVar('id');  // Ambil input ID dari form
+        $password = $this->request->getVar('password');  // Ambil input password
     
-        if ($user) {
-            if (password_verify($password, $user['password'])) {
+        // Periksa ID di setiap kolom sesuai peran
+        $user = $model->getUser($inputId);
+    
+        if ($user && password_verify($password, $user['password'])) {
+            $role = '';
+    
+            // Tentukan role berdasarkan kolom ID yang cocok
+            if ($user['id_admin'] === $inputId) {
+                $role = 'admin';
+            } elseif ($user['pengaju'] === $inputId) {
+                $role = 'pengaju';
+            } elseif ($user['id_staff'] === $inputId) {
+                $role = 'staff';
+            } elseif ($user['id_pimpinan'] === $inputId) {
+                $role = 'pimpinan';
+            }
+    
+            // Jika role ditemukan, set session dan arahkan ke dashboard
+            if ($role) {
                 $session->set([
-                    'id' => $user['id'],
-                    'role' => $user['role'],
+                    'id' => $inputId,
+                    'role' => $role,
                     'logged_in' => true
                 ]);
-    
-                // Arahkan pengguna berdasarkan peran (role)
-                switch ($user['role']) {
-                    case 'admin':
-                        return redirect()->to('/admin/dashboard');
-                    case 'pengaju':
-                        return redirect()->to('/pengaju/dashboard');
-                    case 'pimpinan':
-                        return redirect()->to('/pimpinan/dashboard');
-                    case 'staff':
-                        return redirect()->to('/staff/dashboard');
-                    default:
-                        $session->setFlashdata('msg', 'Peran tidak dikenal.');
-                        return redirect()->to('/login');
-                }
-            } else {
-                $session->setFlashdata('msg', 'Password salah.');
+                return redirect()->to("/{$role}/dashboard");
             }
-        } else {
-            $session->setFlashdata('msg', 'ID tidak ditemukan.');
         }
+    
+        // Jika gagal, kembalikan ke login dengan pesan error
+        $session->setFlashdata('msg', 'ID atau Password salah.');
         return redirect()->to('/login');
     }
+    
     
     public function logout()
     {
