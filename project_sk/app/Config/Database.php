@@ -24,36 +24,16 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
+    
     public array $default = [
-        'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',  // Pastikan sesuai dengan user di phpMyAdmin
-        'password' => '',      // Kosongkan jika tidak menggunakan password
-        'database' => 'sk',    // Pastikan ini adalah nama database Anda
-        'DBDriver' => 'MySQLi', // Driver yang digunakan
-        'DBPrefix' => '',
-        'pConnect' => false,
-        'DBDebug'  => (ENVIRONMENT !== 'production'),
-        'cacheOn'  => false,
-        'cachedir' => APPPATH . 'Cache/',
-        'charSet'  => 'utf8mb4',
-        'DBCollat' => 'utf8mb4_general_ci',  // Pastikan collation sesuai
-        'swapPre'  => '',
-        'encrypt'  => false,
-        'compress' => false,
-        'strictOn' => false,
-        'failover' => [],
-        'saveQueries' => true,
-    ];
-    /**public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => '',
+        'username'     => 'root',
         'password'     => '',
-        'database'     => 'sk',
+        'database'     => 'projek',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
-        'pConnect'     => false,
+        'pConnect'     => true,
         'DBDebug'      => true,
         'charset'      => 'utf8mb4',
         'DBCollat'     => 'utf8mb4_general_ci',
@@ -71,7 +51,7 @@ class Database extends Config
         ],
         
     ];
-    */
+    
 
     //    /**
     //     * Sample database connection for SQLite3.

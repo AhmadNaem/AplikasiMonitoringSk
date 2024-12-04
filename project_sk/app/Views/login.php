@@ -56,18 +56,19 @@
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <?php if (session()->getFlashdata('msg')) : ?>
-            <p><?= session()->getFlashdata('msg') ?></p>
-        <?php endif; ?>
-        <form action="/login/auth" method="post">
-            <label for="id">ID:</label>
-            <input type="text" name="id" id="id" required>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" required>
-            <button type="submit">Login</button>
-        </form>
-    </div>
+<div class="login-container">
+    <h2>Login</h2>
+    <?php if (session()->getFlashdata('msg')) : ?>
+        <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
+    <?php endif; ?>
+    <form action="<?= site_url('login/auth') ?>" method="post">
+        <?= csrf_field(); ?> <!-- Menambahkan CSRF token, ini tidak mempengaruhi rute -->
+        <label for="id">ID:</label>
+        <input type="text" name="id" id="id" required autofocus placeholder="Enter your ID">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required placeholder="Enter your password">
+        <button type="submit">Login</button>
+    </form>
+</div>
 </body>
 </html>
