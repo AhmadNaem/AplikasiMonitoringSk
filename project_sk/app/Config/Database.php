@@ -30,7 +30,7 @@ class Database extends Config
         'hostname'     => 'localhost',
         'username'     => 'root',
         'password'     => '',
-        'database'     => 'projek',
+        'database'     => 'sk',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => true,
