@@ -30,4 +30,9 @@ $routes->get('/pengaju/dashboard', 'Dashboard::pengaju', ['filter' => 'auth']);
 $routes->get('/pimpinan/dashboard', 'Dashboard::pimpinan', ['filter' => 'auth']);
 $routes->get('/staff/dashboard', 'Dashboard::staff', ['filter' => 'auth']);
 $routes->post('dashboard/ajukanSK', 'Dashboard::ajukanSK');
-$routes->get('/dashboard/download/(:num)', 'Dashboard::download/$1');  // Route untuk mendownload file SK berdasarkan IDuntuk download SK berdasarkan ID
+$routes->get('dashboard/ajukanSK', 'Dashboard::ajukanSK');
+$routes->get('dashboard/daftarSK', 'Dashboard::daftarSK', ['filter' => 'auth']);
+
+$routes->get('dashboard/download/(:num)', 'Dashboard::download/$1');
+
+

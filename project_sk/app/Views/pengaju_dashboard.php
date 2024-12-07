@@ -67,9 +67,9 @@
 <body>
     <div class="nav">
         <h1>Dashboard Pengaju</h1>
-        <a href="">Ajukan SK</a>
-        <a href="#">Daftar Pengajuan</a>
-        <a href="#">Logout</a>
+        <a href="<?= site_url('pengaju/dashboard') ?>">Ajukan SK</a>
+    <a href="<?= site_url('dashboard/daftarSK') ?>">Daftar Pengajuan</a>
+    <a href="<?= site_url('logout') ?>">Logout</a>
     </div>
     <div class="container">
         <div class="content">

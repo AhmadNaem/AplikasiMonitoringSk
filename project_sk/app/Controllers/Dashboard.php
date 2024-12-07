@@ -78,11 +78,30 @@ class Dashboard extends Controller
         'mengingat' => $mengingat
     ];
 
-    $model->save($data);  // Tidak perlu memasukkan 'id_sk' karena auto-increment
+    if ($model->save($data)) {
+        // Simulasi file dummy untuk testing
+        $dummyFilePath = WRITEPATH . 'uploads/sk/' . $judul_sk . '.pdf';
+
+        if (!file_exists($dummyFilePath)) {
+            file_put_contents($dummyFilePath, 'Dummy Content for SK PDF Testing');
+        }
+    }
 
     // Redirect atau tampilkan pesan sukses
     session()->setFlashdata('msg', 'SK berhasil diajukan');
     return redirect()->to('/pengaju/dashboard');
+}
+
+public function daftarSK()
+{
+    $id_pengaju = session()->get('id'); // Ambil ID pengguna dari session
+
+    // Ambil daftar SK dari model
+    $model = new PengajuanSkModel();
+    $daftar_sk = $model->getByPengaju($id_pengaju);
+
+    // Kirim data ke view
+    return view('daftar_pengajuan', ['daftar_sk' => $daftar_sk]);
 }
 
     public function pimpinan()
@@ -97,27 +116,36 @@ class Dashboard extends Controller
 
     public function download($id_sk)
 {
-    // Ambil data SK berdasarkan ID
+    // Ambil data SK berdasarkan ID dari database
     $model = new PengajuanSkModel();
     $sk = $model->find($id_sk);
 
     if (!$sk) {
-        // Jika SK tidak ditemukan, arahkan kembali
-        return redirect()->to('/pengaju/dashboard');
+        session()->setFlashdata('msg', 'SK tidak ditemukan.');
+        return redirect()->to('/dashboard/daftarSK');
     }
 
-    // Misalnya, file SK disimpan di folder 'uploads/sk'
+    // Tentukan path file SK di folder 'uploads/sk'
     $filePath = WRITEPATH . 'uploads/sk/' . $sk['judul_sk'] . '.pdf';
 
+    // Periksa apakah file benar-benar ada di server
     if (!file_exists($filePath)) {
-        // Jika file tidak ditemukan, tampilkan pesan
-        session()->setFlashdata('msg', 'File SK tidak ditemukan.');
-        return redirect()->to('/pengaju/dashboard');
+        session()->setFlashdata('msg', 'File SK tidak ditemukan di server.');
+        return redirect()->to('/dashboard/daftarSK');
     }
 
-    // Kirim file untuk didownload
-    return $this->response->download($filePath, null);
+    // Periksa MIME type file
+    if (mime_content_type($filePath) !== 'application/pdf') {
+        session()->setFlashdata('msg', 'File tidak valid.');
+        return redirect()->to('/dashboard/daftarSK');
+    }
+
+    // Mengirim file ke browser untuk di-download
+    return $this->response->download($filePath, $sk['judul_sk'] . '.pdf');
 }
+
+
+
 
 }
 
