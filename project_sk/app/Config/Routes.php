@@ -35,4 +35,8 @@ $routes->get('dashboard/daftarSK', 'Dashboard::daftarSK', ['filter' => 'auth']);
 
 $routes->get('dashboard/download/(:num)', 'Dashboard::download/$1');
 
+// Rute untuk fitur administrasi admin
+$routes->get('/admin/lihatLaporan', 'Admin::lihatLaporan'); // Tampilkan laporan SK
+$routes->post('/admin/ubahStatusSK', 'Admin::ubahStatusSK'); // Perbarui status SK
+$routes->post('/admin/buatLaporan', 'Admin::buatLaporan'); // Buat laporan penerbitan SK
 
