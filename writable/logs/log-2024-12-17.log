@@ -1,0 +1,260 @@
+INFO - 2024-12-17 11:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 11:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-17 11:05:37 --> Input ID: petugas
+DEBUG - 2024-12-17 11:05:37 --> Input Password: petugas
+DEBUG - 2024-12-17 11:05:37 --> User tidak ditemukan.
+INFO - 2024-12-17 11:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 11:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-17 11:05:38 --> Input ID: petugas
+DEBUG - 2024-12-17 11:05:38 --> Input Password: petugas
+DEBUG - 2024-12-17 11:05:38 --> User tidak ditemukan.
+INFO - 2024-12-17 11:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 11:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-17 11:05:42 --> Input ID: 123321
+DEBUG - 2024-12-17 11:05:42 --> Input Password: n123123
+DEBUG - 2024-12-17 11:05:42 --> User ditemukan: Array
+(
+    [id_admin] => 123321
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => n123123
+)
+
+INFO - 2024-12-17 11:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-17 14:23:31 --> Input ID: 321412
+DEBUG - 2024-12-17 14:23:31 --> Input Password: h321412
+DEBUG - 2024-12-17 14:23:31 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-17 14:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-17 14:25:55 --> Input ID: 321412
+DEBUG - 2024-12-17 14:25:55 --> Input Password: h321412
+DEBUG - 2024-12-17 14:25:55 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-17 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 14:29:09 --> ErrorException: Undefined array key "status_sk"
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 99.
+ 1 APPPATH\Views\daftar_pengajuan.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_sk"', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 99)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 14:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 14:37:31 --> ErrorException: Undefined array key "status_sk"
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 100.
+ 1 APPPATH\Views\daftar_pengajuan.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_sk"', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 100)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 14:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 14:42:01 --> ErrorException: Undefined array key "id_status"
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 100.
+ 1 APPPATH\Views\daftar_pengajuan.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_status"', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 100)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 14:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-17 14:48:50 --> Input ID: 123321
+DEBUG - 2024-12-17 14:48:50 --> Input Password: n123123
+DEBUG - 2024-12-17 14:48:50 --> User ditemukan: Array
+(
+    [id_admin] => 123321
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => n123123
+)
+
+INFO - 2024-12-17 14:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-17 14:49:14 --> Input ID: 321412
+DEBUG - 2024-12-17 14:49:14 --> Input Password: h321412
+DEBUG - 2024-12-17 14:49:14 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-17 14:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 14:55:05 --> ErrorException: Undefined variable $daftar_s
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 95.
+ 1 APPPATH\Views\daftar_pengajuan.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $daftar_s', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 14:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 14:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 14:58:09 --> ErrorException: Undefined array key "id_status"
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 100.
+ 1 APPPATH\Views\daftar_pengajuan.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_status"', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 100)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 15:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 15:28:37 --> ErrorException: Undefined variable $melihat_status
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 96.
+ 1 APPPATH\Views\daftar_pengajuan.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $melihat_status', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 96)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 15:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 15:59:01 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 101.
+ 1 APPPATH\Views\daftar_pengajuan.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 101)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 15:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 15:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-17 15:59:20 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: dashboard/daftarSK]
+in APPPATH\Views\daftar_pengajuan.php on line 101.
+ 1 APPPATH\Views\daftar_pengajuan.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php', 101)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\project_sk\\app\\Views\\daftar_pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('daftar_pengajuan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(104): view('daftar_pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->daftarSK()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-17 15:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 17:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-17 18:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
