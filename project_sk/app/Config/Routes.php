@@ -29,14 +29,31 @@ $routes->get('/admin/dashboard', 'Dashboard::admin', ['filter' => 'auth']);
 $routes->get('/pengaju/dashboard', 'Dashboard::pengaju', ['filter' => 'auth']);
 $routes->get('/pimpinan/dashboard', 'Dashboard::pimpinan', ['filter' => 'auth']);
 $routes->get('/staff/dashboard', 'Dashboard::staff', ['filter' => 'auth']);
-$routes->post('dashboard/ajukanSK', 'Dashboard::ajukanSK');
-$routes->get('dashboard/ajukanSK', 'Dashboard::ajukanSK');
-$routes->get('dashboard/daftarSK', 'Dashboard::daftarSK', ['filter' => 'auth']);
 
-$routes->get('dashboard/download/(:num)', 'Dashboard::download/$1');
+$routes->get('dashboard/ajukanSK', 'Dashboard::ajukanSK'); // Menampilkan form pengajuan SK
+$routes->post('pengaju/dashboard/ajukanSK', 'Dashboard::ajukanSK'); // Memproses pengajuan SK
+$routes->post('admin/dashboard/updateStatusSK', 'Dashboard::updateStatusSK');
+$routes->post('admin/dashboard/createReport', 'Dashboard::createReport',['filter' => 'auth']);
+$routes->get('admin/dashboard/publishSK/(:num)', 'Dashboard::publishSK/$1',['filter' => 'auth']);
+$routes->post('staff/dashboard/verifySK/(:num)', 'Dashboard::verifySK/$1',['filter' => 'auth']);
+$routes->post('pimpinan/verifySK/(:num)', 'Dashboard::verifySK/$1');
 
-// Rute untuk fitur administrasi admin
-$routes->get('/admin/lihatLaporan', 'Admin::lihatLaporan'); // Tampilkan laporan SK
-$routes->post('/admin/ubahStatusSK', 'Admin::ubahStatusSK'); // Perbarui status SK
-$routes->post('/admin/buatLaporan', 'Admin::buatLaporan'); // Buat laporan penerbitan SK
+$routes->get('/dashboard/cetakLaporan/(:num)', 'Dashboard::cetakLaporan/$1');
+$routes->get('image/(:segment)', 'ImageController::display/$1');
 
+/**$routes->group('admin', ['filter' => 'auth'], function ($routes) {
+    // Dashboard admin
+    $routes->get('dashboard', 'dashboard::admin');
+    
+    // Membuat laporan SK
+    $routes->get('createReport', 'dashboard::createReport');
+    $routes->post('createReport', 'dashboard::createReport');
+    
+    // Formulir untuk memperbarui status SK
+    $routes->get('updateStatusForm/(:num)', 'dashboard::showUpdateStatusForm/$1');
+    $routes->post('updateStatus', 'dashboard::updateStatusSK');
+    
+    // Publikasi SK
+    $routes->get('publishSK/(:num)', 'dashboard::publishSK/$1');
+});
+*/
