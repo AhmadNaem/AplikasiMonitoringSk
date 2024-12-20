@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Pengajuan SK</title>
+    <title>Melihat Status SK</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -73,21 +73,25 @@
 <body>
     <div class="nav">
         <a href="<?= site_url('pengaju/dashboard') ?>">Ajukan SK</a>
-        <a href="<?= site_url('dashboard/daftarSK') ?>">Daftar Pengajuan</a>
+        <a href="<?= site_url('dashboard/daftarSK') ?>">Status SK</a>
         <a href="<?= site_url('logout') ?>">Logout</a>
     </div>
     <div class="container">
         <div class="content">
-            <h2>Daftar Pengajuan SK</h2>
+            <h2>Status SK</h2>
             <?php if (empty($daftar_sk)): ?>
-                <div class="empty-message">Tidak ada SK yang diajukan.</div>
+                <div class="empty-message">Menunggu Sk Diproses</div>
             <?php else: ?>
                 <table>
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>Judul SK</th>
-                            <th>Tanggal Pengajuan</th>
+                            <th>id_status</th>
+                            <th>id_sk</th>
+                            <th>id_pimpinan</th>
+                            <th>id_pengaju</th>
+                            <th>id_staff</th>
+                            <th>tanggal_update</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -96,7 +100,12 @@
                             <tr>
                                 <td><?= $index + 1 ?></td>
                                 <td><?= esc($sk['judul_sk']) ?></td>
-                                <td><?= esc($sk['tanggal_pengajuan']) ?></td>
+                                <td><?= esc($sk['id_status']) ?></td>
+                                <td><?= esc($sk['id_sk']) ?></td>
+                                <td><?= esc($sk['id_pimpinan']) ?></td>
+                                <td><?= esc($sk['id_pengaju']) ?></td>
+                                <td><?= esc($sk['id_staff']) ?></td>
+                                <td><?= esc($sk['tanggal_update']) ?></td>
                                 <td>
                                     <a class="btn-download" href="<?= site_url('dashboard/download/' . $sk['id_sk']) ?>">Unduh</a>
                                 </td>

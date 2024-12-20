@@ -6,11 +6,11 @@ use CodeIgniter\Model;
 
 class PengajuanSkModel extends Model
 {
-    protected $table = 'pengajuan';
-    protected $primaryKey = 'id_sk';
+    protected $table = 'melihat_status' ;
+    protected $primaryKey = 'id_status';
     protected $allowedFields = [
-        'id_pengaju', 'judul_sk', 'tanggal_pengajuan', 'tembusan', 'menimbang',
-        'menetapkan', 'memperhatikan', 'mengingat'
+        'id_status', 'id_sk', 'id_pimpinan', 'id_pengaju', 'id_staff',
+        'tanggal_update'
     ];
     protected $useTimestamps = true;
     public function getPengajuanWithStatus($id_pengaju)
@@ -46,5 +46,8 @@ public function updateStatusSK($id_sk, $status)
                     ->update(['status' => $status]);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 202afcb3175ff2e1c1ff8b50e65a9f4a93bb7e62
 }

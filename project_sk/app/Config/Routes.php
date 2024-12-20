@@ -38,8 +38,15 @@ $routes->get('admin/dashboard/publishSK/(:num)', 'Dashboard::publishSK/$1',['fil
 $routes->post('staff/dashboard/verifySK/(:num)', 'Dashboard::verifySK/$1',['filter' => 'auth']);
 $routes->post('pimpinan/verifySK/(:num)', 'Dashboard::verifySK/$1');
 
+<<<<<<< HEAD
 $routes->get('/dashboard/cetakLaporan/(:num)', 'Dashboard::cetakLaporan/$1');
 $routes->get('image/(:segment)', 'ImageController::display/$1');
+=======
+// Rute untuk fitur administrasi admin
+$routes->get('/admin/lihatLaporan', 'Admin::lihatLaporan'); // Tampilkan laporan SK
+$routes->post('/admin/ubahStatusSK', 'Admin::ubahStatusSK'); // Perbarui status SK
+$routes->get('/admin/buatLaporan', 'Admin::buatLaporan'); // Buat laporan penerbitan SK
+>>>>>>> 202afcb3175ff2e1c1ff8b50e65a9f4a93bb7e62
 
 /**$routes->group('admin', ['filter' => 'auth'], function ($routes) {
     // Dashboard admin
