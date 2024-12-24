@@ -1,10 +1,10 @@
 # AplikasiMonitoringSk
 Anggota Kelompok :
-Ahmad Bahrun Naim
-Muhammad Aldouri
-Ronaldo Simbolon
-Handicap
-Adon
+1. Ahmad Bahrun Naim
+2. Muhammad Aldouri
+3. Ronaldo Simbolon
+4. Handicap
+5. Adon
 
 
 # **KETENTUAN UNTUK MENGGUNAKAN APLIKASI**
