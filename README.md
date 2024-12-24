@@ -1,10 +1,10 @@
 # AplikasiMonitoringSk
-Anggota Kelompok :;
-Ahmad Bahrun Naim;
-Muhammad Aldouri;
-Ronaldo Simbolon;
-Handicap;
-Adon;
+Anggota Kelompok :
+Ahmad Bahrun Naim
+Muhammad Aldouri
+Ronaldo Simbolon
+Handicap
+Adon
 
 
 # **KETENTUAN UNTUK MENGGUNAKAN APLIKASI**
