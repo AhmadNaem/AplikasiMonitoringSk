@@ -161,6 +161,7 @@ public function publishSK($id_sk)
     }
     public function cetakLaporan($id_sk)
 {
+    
     $pengajuanModel = new PengajuanSkModel();
 
     // Ambil data pengajuan berdasarkan id_sk

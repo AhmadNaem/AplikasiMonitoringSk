@@ -49,8 +49,8 @@
                 <tr>
                     <th>ID SK</th>
                     <th>Judul</th>
+                    <th>catatan</th>
                     <th>Status Verifikasi</th>
-                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>

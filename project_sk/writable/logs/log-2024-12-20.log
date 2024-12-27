@@ -1,0 +1,374 @@
+INFO - 2024-12-20 00:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 00:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 00:59:03 --> Input ID: 123321
+DEBUG - 2024-12-20 00:59:03 --> Input Password: n123123
+DEBUG - 2024-12-20 00:59:03 --> User ditemukan: Array
+(
+    [id_admin] => 123321
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => n123123
+)
+
+INFO - 2024-12-20 00:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 00:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 00:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 00:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 00:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:00:02 --> Input ID: 321412
+DEBUG - 2024-12-20 01:00:02 --> Input Password: h321412
+DEBUG - 2024-12-20 01:00:02 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-20 01:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:00:38 --> Input ID: 412321
+DEBUG - 2024-12-20 01:00:38 --> Input Password: p412321
+DEBUG - 2024-12-20 01:00:38 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 412321
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => p412321
+)
+
+INFO - 2024-12-20 01:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:02:21 --> Input ID: 321123
+DEBUG - 2024-12-20 01:02:21 --> Input Password: d321123
+DEBUG - 2024-12-20 01:02:21 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 321123
+    [id_pengaju] => 
+    [password] => d321123
+)
+
+INFO - 2024-12-20 01:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:05:11 --> Input ID: 321123
+DEBUG - 2024-12-20 01:05:11 --> Input Password: d321123
+DEBUG - 2024-12-20 01:05:11 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 321123
+    [id_pengaju] => 
+    [password] => d321123
+)
+
+INFO - 2024-12-20 01:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:54:13 --> Input ID: 321412
+DEBUG - 2024-12-20 01:54:13 --> Input Password: h321412
+DEBUG - 2024-12-20 01:54:13 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-20 01:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:54:57 --> Input ID: 123321
+DEBUG - 2024-12-20 01:54:57 --> Input Password: n123321
+DEBUG - 2024-12-20 01:54:57 --> User ditemukan: Array
+(
+    [id_admin] => 123321
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => n123123
+)
+
+DEBUG - 2024-12-20 01:54:57 --> Password tidak cocok.
+INFO - 2024-12-20 01:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:55:08 --> Input ID: 123321
+DEBUG - 2024-12-20 01:55:08 --> Input Password: n321123
+DEBUG - 2024-12-20 01:55:08 --> User ditemukan: Array
+(
+    [id_admin] => 123321
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => n123123
+)
+
+DEBUG - 2024-12-20 01:55:08 --> Password tidak cocok.
+INFO - 2024-12-20 01:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:55:16 --> Input ID: 123321
+DEBUG - 2024-12-20 01:55:16 --> Input Password: n123123
+DEBUG - 2024-12-20 01:55:16 --> User ditemukan: Array
+(
+    [id_admin] => 123321
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => n123123
+)
+
+INFO - 2024-12-20 01:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:56:19 --> Input ID: 321412
+DEBUG - 2024-12-20 01:56:19 --> Input Password: d321412
+DEBUG - 2024-12-20 01:56:19 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+DEBUG - 2024-12-20 01:56:19 --> Password tidak cocok.
+INFO - 2024-12-20 01:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:56:32 --> Input ID: 321412
+DEBUG - 2024-12-20 01:56:32 --> Input Password: d3214112
+DEBUG - 2024-12-20 01:56:32 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+DEBUG - 2024-12-20 01:56:32 --> Password tidak cocok.
+INFO - 2024-12-20 01:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:56:50 --> Input ID: 321123
+DEBUG - 2024-12-20 01:56:50 --> Input Password: d321123
+DEBUG - 2024-12-20 01:56:50 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 321123
+    [id_pengaju] => 
+    [password] => d321123
+)
+
+INFO - 2024-12-20 01:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:59:17 --> Input ID: 321412
+DEBUG - 2024-12-20 01:59:17 --> Input Password: p321412
+DEBUG - 2024-12-20 01:59:17 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+DEBUG - 2024-12-20 01:59:17 --> Password tidak cocok.
+INFO - 2024-12-20 01:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:59:29 --> Input ID: 412321
+DEBUG - 2024-12-20 01:59:29 --> Input Password: 412321
+DEBUG - 2024-12-20 01:59:29 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 412321
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => p412321
+)
+
+DEBUG - 2024-12-20 01:59:29 --> Password tidak cocok.
+INFO - 2024-12-20 01:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 01:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 01:59:40 --> Input ID: 412321
+DEBUG - 2024-12-20 01:59:40 --> Input Password: p412321
+DEBUG - 2024-12-20 01:59:40 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 412321
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => p412321
+)
+
+INFO - 2024-12-20 01:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 02:04:13 --> Input ID: 321412
+DEBUG - 2024-12-20 02:04:13 --> Input Password: d321412
+DEBUG - 2024-12-20 02:04:13 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+DEBUG - 2024-12-20 02:04:13 --> Password tidak cocok.
+INFO - 2024-12-20 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 02:04:20 --> Input ID: 321412
+DEBUG - 2024-12-20 02:04:20 --> Input Password: h321412
+DEBUG - 2024-12-20 02:04:20 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-20 02:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 02:04:40 --> Input ID: 412321
+DEBUG - 2024-12-20 02:04:40 --> Input Password: p412321
+DEBUG - 2024-12-20 02:04:40 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 412321
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => p412321
+)
+
+INFO - 2024-12-20 02:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 02:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 03:17:37 --> Input ID: 321412
+DEBUG - 2024-12-20 03:17:37 --> Input Password: h321412
+DEBUG - 2024-12-20 03:17:37 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-20 03:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 03:18:58 --> Input ID: 123321
+DEBUG - 2024-12-20 03:18:58 --> Input Password: n123123
+DEBUG - 2024-12-20 03:18:58 --> User ditemukan: Array
+(
+    [id_admin] => 123321
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => n123123
+)
+
+INFO - 2024-12-20 03:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 03:19:41 --> Input ID: 321123
+DEBUG - 2024-12-20 03:19:41 --> Input Password: d321123
+DEBUG - 2024-12-20 03:19:41 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 321123
+    [id_pengaju] => 
+    [password] => d321123
+)
+
+INFO - 2024-12-20 03:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 03:20:22 --> Input ID: 321412
+DEBUG - 2024-12-20 03:20:22 --> Input Password: p321412
+DEBUG - 2024-12-20 03:20:22 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+DEBUG - 2024-12-20 03:20:22 --> Password tidak cocok.
+INFO - 2024-12-20 03:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 03:20:31 --> Input ID: 412321
+DEBUG - 2024-12-20 03:20:31 --> Input Password: p412321
+DEBUG - 2024-12-20 03:20:31 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 412321
+    [id_staff] => 
+    [id_pengaju] => 
+    [password] => p412321
+)
+
+INFO - 2024-12-20 03:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-20 03:25:46 --> Input ID: 321412
+DEBUG - 2024-12-20 03:25:46 --> Input Password: h321412
+DEBUG - 2024-12-20 03:25:46 --> User ditemukan: Array
+(
+    [id_admin] => 
+    [id_pimpinan] => 
+    [id_staff] => 
+    [id_pengaju] => 321412
+    [password] => h321412
+)
+
+INFO - 2024-12-20 03:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-20 03:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
